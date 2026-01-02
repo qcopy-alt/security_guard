@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "pam_module",
+    "telegram_backend",
+]
+resolver = "2"
