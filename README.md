@@ -52,10 +52,9 @@ echo 'source $HOME/.cargo/env' >> ~/.bashrc
 2. Рекомендуется запустить его через `screen` или `tmux`, чтобы он не закрылся при выходе из консоли:
    ```bash
    sudo apt install screen -y
-   screen -S tg_auth
+   screen -dmS tg_auth
    ./target/release/telegram_backend
    ```
-   *Нажмите `Ctrl+A`, затем `D`, чтобы отсоединиться от экрана (бэкенд продолжит работу).*
 
 ## Шаг 5: Сборка и установка PAM-модуля
 
